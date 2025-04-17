@@ -1,0 +1,5 @@
+2025-04-12 05:59:17.287 [info] update#setState idle
+2025-04-12 05:59:34.145 [info] Extension host with pid 3660 exited with code: 0, signal: unknown.
+2025-04-12 05:59:35.150 [error] Extension host with pid 3660 still exists, forcefully killing it...
+2025-04-12 05:59:48.561 [info] update#setState checking for updates
+2025-04-12 05:59:48.577 [info] update#setState idle

@@ -1,0 +1,4 @@
+2025-04-12 06:54:32.308 [warning] Creation of workbench contribution 'workbench.chat.setup' took 28ms.
+2025-04-12 06:54:41.580 [info] Started local extension host with pid 5098.
+2025-04-12 06:54:58.104 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-04-12 06:54:59.510 [info] [perf] Render performance baseline is 55ms

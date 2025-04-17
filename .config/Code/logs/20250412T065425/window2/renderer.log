@@ -1,0 +1,5 @@
+2025-04-12 06:54:32.346 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 50ms.
+2025-04-12 06:54:32.436 [warning] Creation of workbench contribution 'workbench.chat.setup' took 32ms.
+2025-04-12 06:54:34.679 [info] Started local extension host with pid 5059.
+2025-04-12 06:54:48.570 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-04-12 06:54:52.529 [info] [perf] Render performance baseline is 67ms

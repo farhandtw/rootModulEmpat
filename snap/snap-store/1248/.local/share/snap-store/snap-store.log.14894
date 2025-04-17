@@ -1,0 +1,39 @@
+2025-03-19 10:19:47.104912 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#2f19d(null) failed
+	SnapdException: SnapdException(kind: null, message: cannot get details for snap "snap-store": got unexpected HTTP status code 408 via GET to "https://api.snapcraft.io/v2/snaps/info/snap-store?architecture=amd64&fields=architectures%2Cbase%2Cconfinement%2Clinks%2Ccontact%2Ccreated-at%2Cdescription%2Cdownload%2Cepoch%2Clicense%2Cname%2Cprices%2Cprivate%2Cpublisher%2Crevision%2Csnap-id%2Csummary%2Ctitle%2Ctype%2Cversion%2Cwebsite%2Cstore-url%2Cresources%2Cmedia%2Ccommon-ids%2Ccategories", status: Internal Server Error, statusCode: 500)
+2025-03-19 10:19:47.110389 ERROR error_observer: Provider storeSnapProvider:StoreSnapProvider#633dd(null) failed
+	SnapdException: SnapdException(kind: null, message: cannot get details for snap "snapd": got unexpected HTTP status code 408 via GET to "https://api.snapcraft.io/v2/snaps/info/snapd?architecture=amd64&fields=architectures%2Cbase%2Cconfinement%2Clinks%2Ccontact%2Ccreated-at%2Cdescription%2Cdownload%2Cepoch%2Clicense%2Cname%2Cprices%2Cprivate%2Cpublisher%2Crevision%2Csnap-id%2Csummary%2Ctitle%2Ctype%2Cversion%2Cwebsite%2Cstore-url%2Cresources%2Cmedia%2Ccommon-ids%2Ccategories", status: Internal Server Error, statusCode: 500)
+2025-03-19 10:20:52.780046 ERROR main: Error propagated to top-level
+	_TypeError: Null check operator used on a null value
+#0      SnapModel.refresh (package:app_center/snapd/snap_model.dart:131)
+#1      UpdatesModel.refreshAll.refreshSnap (package:app_center/manage/updates_model.dart:137)
+#2      MappedIterable.elementAt (dart:_internal/iterable.dart:385)
+#3      ListIterator.moveNext (dart:_internal/iterable.dart:354)
+#4      Future.wait (dart:async/future.dart:532)
+#5      UpdatesModel.refreshAll (package:app_center/manage/updates_model.dart:156)
+<asynchronous suspension>
+
+2025-03-19 10:27:07.493282 ERROR main: Error propagated to top-level
+	_TypeError: Null check operator used on a null value
+#0      SnapModel.refresh (package:app_center/snapd/snap_model.dart:131)
+#1      UpdatesModel.refreshAll.refreshSnap (package:app_center/manage/updates_model.dart:137)
+#2      UpdatesModel.refreshAll (package:app_center/manage/updates_model.dart:153)
+#3      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1170)
+#4      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:351)
+#5      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:656)
+#6      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:313)
+#7      BaseTapGestureRecognizer.acceptGesture (package:flutter/src/gestures/tap.dart:283)
+#8      GestureArenaManager.sweep (package:flutter/src/gestures/arena.dart:169)
+#9      GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:505)
+#10     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:481)
+#11     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:450)
+#12     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:426)
+#13     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:389)
+#14     GestureBinding._flushPointerEventQueue (package:flutter/src/gestures/binding.dart:336)
+#15     GestureBinding._handlePointerDataPacket (package:flutter/src/gestures/binding.dart:305)
+#16     _rootRunUnary (dart:async/zone.dart:1415)
+#17     _CustomZone.runUnary (dart:async/zone.dart:1308)
+#18     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1217)
+#19     _invoke1 (dart:ui/hooks.dart:330)
+#20     PlatformDispatcher._dispatchPointerDataPacket (dart:ui/platform_dispatcher.dart:442)
+#21     _dispatchPointerDataPacket (dart:ui/hooks.dart:262)
+

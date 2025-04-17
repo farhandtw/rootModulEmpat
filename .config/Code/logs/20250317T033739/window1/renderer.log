@@ -1,0 +1,5 @@
+2025-03-17 03:37:41.819 [info] Started local extension host with pid 3446.
+2025-03-17 03:37:42.043 [info] Started initializing default profile extensions in extensions installation folder. file:///home/control/.vscode/extensions
+2025-03-17 03:37:42.792 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/control/.vscode/extensions
+2025-03-17 03:37:43.493 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-03-17 03:37:44.871 [info] [perf] Render performance baseline is 16ms
